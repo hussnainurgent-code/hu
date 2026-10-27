@@ -634,7 +634,7 @@ end
 -- ========================== CHEN PUBG SKIN MOD BYPASS ==========================
 -- ==============================================================================
 
-local function Notify(msg) local s = "[ZenXAHMAD VIP New] " .. tostring(msg)
+local function Notify(msg) local s = "[HUSSNAINxPUBG VIP] " .. tostring(msg)
 pcall(function() if _G.LexusNotify then _G.LexusNotify(s) end end)
 pcall(function() local sh = import("ScriptHelperClient") if sh and
 sh.AddOnScreenDebugMessage then sh.AddOnScreenDebugMessage(s, -1, 3.0, {R=1,
@@ -15347,7 +15347,7 @@ end)
 -- ==========================================================
 
 -- ===================================================================================
--- ==================== ONLINE KEY VERIFICATION SYSTEM (from ZenXAHMAD) ================
+-- ==================== ONLINE KEY VERIFICATION SYSTEM (from HUSSNAINxPUBG) ================
 -- ===================================================================================
 
 local function Chars(...)
@@ -16273,7 +16273,7 @@ _G.License_GetHWID = _L.GetHWID
 _G.License_API_URL = _L.API_URL
 
 -- ===================================================================================
--- ==================== AUTO-FEEDBACK SYSTEM (from ZenXAHMAD ) ==========================
+-- ==================== AUTO-FEEDBACK SYSTEM (from HUSSNAINxPUBG) ==========================
 -- ===================================================================================
 
 local AutoFeedback = {
@@ -16285,7 +16285,7 @@ local AutoFeedback = {
 }
 
 local function AF_Log(message)
-	print(string.format("[ZenXAHMAD][%s] %s", os.date("%H:%M:%S"), tostring(message)))
+	print(string.format("[HUSSNAINxPUBG][%s] %s", os.date("%H:%M:%S"), tostring(message)))
 end
 
 local function AF_Notify(message)
