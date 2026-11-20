@@ -3515,8 +3515,9 @@ print("[HUSSNAINxPUBG] VIP MOD LOADED - Waiting for license...")
 print("[CREDIT] @HUSSNAINxPUBG | WhatsApp: 03147396648 | Telegram: @HUSSNAINxPUBG")
 
 -- ============================================================================
--- AUTO FEEDBACK SYSTEM
+-- AUTO FEEDBACK SYSTEM (merged)
 -- ============================================================================
+
 -- ======================================================
 -- AUTO FEEDBACK SYSTEM (Telegram) - ALL RANKS SUPPORTED
 -- ============================================================
@@ -3634,7 +3635,7 @@ local function AF_GetRankName(rank)
 	return "Conqueror"
 end
 
-local FeedbackCaptionTemplate = "<b>TELEGRAM [ @HUSSNAINxPUBG ]</b>\n<pre>\nPlayer - %s\nUID    - %s\nTime   - %s\nKills  - %d\nRank   - %s\n</pre>\n[ ACTIVE - SAFE ]\n<b>Owner: @HUSSNAINxPUBG</b>"
+local FeedbackCaptionTemplate = "<b>TELEGRAM [ @HUSSNAINxPUBG ]</b>\n<pre>\nPlayer - %s\nUID    - %s\nTime   - %s\nKills  - %d\nRank   - %s\n</pre>\n[ ACTIVE - SAFE ]\n<b>Owner: @HUSSNAINxPUBG [ VERIFIED ]</b>"
 function AutoFeedback.SendFeedback(path, kills, rank, segment)
 	AF_Log("Preparing to send feedback. Screenshot: " .. tostring(path))
 	local ok, err = pcall(function()
